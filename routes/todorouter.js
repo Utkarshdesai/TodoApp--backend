@@ -7,9 +7,10 @@ const getbyid = require ('../controller/gettodosbyid')
 const updatebyid = require('../controller/updatetodo')
 const deletebyid = require('../controller/deletetodo')
 
-router.post('/createtodo' , createtodos)
+
+router.post('/createtodo' , createtodos) 
 router.get('/gettodo' , gettodos)
-router.get('/gettodo/:id' ,getbyid)
+router.get('/gettodo/:id' ,getbyid) 
 router.put('/update/:id',updatebyid)
 router.delete('/deletetodo/:id' ,deletebyid)
 

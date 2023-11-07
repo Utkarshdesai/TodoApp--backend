@@ -11,7 +11,7 @@ const todoschema = new mongoose.Schema (
 
        description: {
         type : String,
-        maxlength : 20 ,
+        maxlength : 20 ,  
         required : true
      } , 
 

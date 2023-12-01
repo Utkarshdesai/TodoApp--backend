@@ -23,10 +23,7 @@ const updatetodo = async (req,res) => {
             message : `todo for given ${id} is updated`
         })
                 
-    } 
-    
-    
-    catch (error) {
+    }  catch (error) {
 
         console.log(error)
         res.status(500).json( 

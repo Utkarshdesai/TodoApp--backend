@@ -11,7 +11,7 @@ const connectdb = require('./config/dbconnect')
 connectdb()
 
 //use middleware to parse json data
-app.use(express.json())
+// app.use(express.json())
 
 //mount route
 const todoroute = require ('./routes/todorouter')
